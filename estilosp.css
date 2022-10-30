@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+body
+{
+    background: linear-gradient(180deg, #F3FBFB 0%, rgba(243, 251, 251, 0.91) 100%);
+}
+
+header
+{
+    background: black;
+    height: 84px;
+    width: 1440px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 1.18%;
+}
+
+.imgContenedor
+{
+    position: absolute;
+    left: 5.42%;
+    right: 87.64%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+.imgEncabezado
+{
+    width: 5rem;
+}
+
+.menu
+{
+    background: black;
+    margin: auto;
+    cursor: pointer;
+}
+
+.menu #nosotros
+{
+    height: 84px;
+    width: 200px;
+    left: 231px;
+    top: 0px;
+    border-radius: 0px;
+
+    left: 16.04%;
+    right: 68.54%;
+    top: 0%;
+    bottom: 1.18%;
+    position: absolute;
+    background: #2D2427;
+    border-width: 0px 5px;
+    border-style: solid;
+    border-color: #000000;
+    
+
+    cursor: pointer;
+}
+#nosotros
+{
+    position: absolute;
+    left: 10.64%;
+    right: 10.11%;
+    top: 25%;
+    bottom: 23.81%;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #E5DCC8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.menu #tiendas
+{
+    height: 84px;
+    width: 200px;
+    left: 453px;
+    top: 0px;
+    border-radius: 0px;
+
+    position: absolute;
+    left: 31.46%;
+    right: 53.12%;
+    top: 0%;
+    bottom:1.18%;
+
+    background: #2D2427;
+    border-width: 0px 5px;
+    border-style: solid;
+    border-color: #000000;
+}
+#tiendas
+{
+    position: absolute;
+    left: 14.89%;
+    right: 12.77%;
+    top: 21.43%;
+    bottom: 22.62%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #E5DCC8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container
+{
+    position: absolute;
+    left: 75%;
+    top: 28%;
+    transform: translate(-40%, 0%);
+    padding: 10px;
+}
+
+.btn
+{
+    position: absolute;
+    left: 58.03%;
+    right: 29.57%;
+    top: 0;
+    bottom: 21.43%;
+    width: 78px;
+    height: 49px;
+    
+    background: #000000;
+    line-height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid #D0BD14;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container2
+{
+    position: absolute;
+    left: 81%;
+    top: 28%;
+    padding: 10px;
+
+}
+.usuario
+{
+    position: absolute;
+    left: 58.03%;
+    right: 29.57%;
+    top: 0;
+    bottom: 21.43%;
+    width: 78px;
+    height: 49px;
+    
+    background: #000000;
+    line-height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid #D0BD14;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.bars_menu
+{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+    transform:translate(-50%, -50%) scale(2);
+}
+.bars_menu span
+{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #E5DCC8;
+    border-radius: 10px;
+    margin-top: 8px;
+    transform-origin: 0px 100%;
+    transition: all 300ms;
+
+}
+.activeline1_bars-menu
+{
+    transform: rotate(44deg);
+    translate: (-2px,1px);
+}
+.activeline2_bars-menu
+{
+    opacity: 0;
+    margin-left: -30px;
+}
+
+.activeline3_bars-menu
+{
+    transform: rotate(-44deg);
+    translate:(-4px,2px);
+}
+
+.img2Contenedor .img2
+{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    margin-left: 500px;
+    margin-right: 50px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Contenedor
+{
+    padding: 5rem;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+}
+
+
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	color: #2D2427;
+    line-height: 47px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+
+    margin-top: 400px;
+    margin-left: 20px;
+
+
+}
+.title-cards2
+{
+    width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	color: #2D2427;
+    line-height: 47px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+
+    margin-top: -10px;
+    margin-left: 20px;
+
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+    margin: 20px;
+	width: 88%;
+	height:340px;
+}
+.card .contenido-card{
+	padding: 15px;
+	
+}
+
+.card .contenido-card h3{
+	margin-bottom: 4px;
+	color: #2D2427;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+    
+
+}
+.card .contenido-card p{
+	line-height: 28.13px;
+	color: #2D2427;
+	font-size: 18px;
+	margin-bottom: 3px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 5px;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #2D2427;
+	border-radius: 2px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+    background-color: #2D2427;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+
+
+footer
+{
+    width: 100%;
+    height: 70px;
+    background-color: #2D2427;
+
+}
+footer .face
+{
+    border-radius: 500px;
+    background: #E5DCC8;
+    height: 70px;
+    width: 70px;
+    margin-left: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
