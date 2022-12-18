@@ -4,175 +4,216 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="estilosp.css" as="estilos">
+    <title>Inicio</title>
     <link rel="stylesheet" href="estilosp.css">
-    <title>Document</title>
+
+     <!--Google Fonts-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <!--Link para importar el estilo de la fuente-->
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+ 
+
 </head>
-<body>
-    <header>
-        <div class="container_header">
-        <div class="imgContenedor">
-            <img src="img/logo.jpeg" class="imgEncabezado"> 
-        </div>
 
-        <div class="menu">     
-        <nav>
-            <div class="menu">
-                <div>
-                    <a href="" id="nosotros">Nosotros</a>
-                </div>
-             
-               <a href="" id="tiendas">Tiendas</a>
-            </div>
-           </nav>
-       </div>
-                  
-        <div class="container">
-            <div class="btn">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <circle cx="10" cy="10" r="7" />
-                    <line x1="21" y1="21" x2="15" y2="15" />
-                  </svg>
-        </div>
-        </div>
-
-        <div class="container2">
-          <div class="usuario">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="7" r="4" />
-                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-              </svg>
-          </div>
-        </div>
-
-      
-        <div class="bars_menu">
-            <span class="line1_bars-menu"></span>
-            <span class="line2_bars-menu"></span>
-            <span class="line3_bars-menu"></span>
-        </div>
+<nav>
+    <div class="logo">
+        <img src="img/logo guarú .jpeg" width="90px" height="90px">
     </div>
-    </header>
+    <div class="openMenu"><i class="fa fa-bars"></i></div>
+    <ul class="mainMenu">
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Tienda</a></li>
+        <li><a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></a></i></li>
+        <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+        <div class="closeMenu"><i class="fa fa-times"></i></div>
+        
+    </ul>
+</nav>
 
+<body>
     <section class="Contenedor1">
-        <div class="text1">
-            <p>para todo mal,</p>
-            <p>Mezcal... y para todo bien,</p>
-            <p>¡Tambien!</p>
-        </div>
-        <div class="img2Contenedor">
-            <img src="img/principal.jpeg" class="img2"> 
-        </div>
-        <div class="text2">
-            <P>Mezcal Guarú</P>
+        <div class="container">
+            <div class="text1">
+                <p>Para todo mal</p>
+                <p>Mezcal... y para todo bien,</p>
+                <p>También!</p>
+            </div>
+            <div class="img2Contenedor">
+               <img class="img2" src="/img/principal.jpeg">  
+            </div>
+            <div class="text2">
+                <p>Mezcal Guarú</p>
+    
+            </div>
         </div>
     </section>
+
 
     <div class="title-cards">
         <h2>Destacados</h2>
     </div>
-    
-    <div class="container-card">
-    
-    <div class="card">
+    <div class="container-card">     
+        <div class="card">
+            <figure>
+                <img src="img/mezcal coco.jpeg" alt="Crema de coco Guarú">
 
-    <figure>
-        <img src="img/mezcal coco.jpeg" alt="Crema de coco Guarú">
+            </figure>
+            <div class="contenido-card">
+                <h3>Crema de coco Guarú</h3>
+                <p>Crema grande: $220 (750 ml)</p>
+                <a href="#">Ver más</a>
+            </div>
+        </div>
 
-    </figure>
-    <div class="contenido-card">
-        <h3>Crema de coco Guarú</h3>
-        <p>Crema chica: $120 (375 ml)</p>
-        <p>Crema grande: $220 (750 ml)</p>
-        <a href="#">Ver más</a>
-    </div>
-    </div>
+    <!--Producto 2-->
+        <div class="card">
+            <figure>
+                <img src="img/mezcal oreo.jpeg">
+            </figure>
+            <div class="contenido-card">
+                <h3>Crema de galletas Oreo Guarú</h3>
+                <p>Crema chica: $120 (375 ml)</p>
+                <a href="#">Ver más</a>
+            </div>
+        </div>
+        <!--Producto 3-->
+        <div class="card">
+            <figure>
+                <img src="img/mezcal oreo.jpeg">
+            </figure>
+            <div class="contenido-card">
+                <h3>Crema de galletas Oreo Guarú</h3>
+                <p>Crema grande: $220 (750 ml)</p>
+                <a href="#">Ver más</a>
+            </div>
+        </div>
 
-
-    
-    
-    <div class="card">
-    <figure>
-        <img src="img/mezcal oreo.jpeg">
-    </figure>
-    <div class="contenido-card">
-        <h3>Crema de galletas Oreo Guarú</h3>
-        <p>Crema chica: $120 (375 ml)</p>
-        <p>Crema grande: $220 (750 ml)</p>
-        <a href="#">Ver más</a>
-    </div>
-    </div>
-    
-   
-    <div class="card">
-    <figure>
-        <img src="img/mezcal cafe.jpeg">
-    </figure>
-    <div class="contenido-card">
-        <h3>Crema de café Guarú</h3>
-        <p>Crema chica: $120 (375 ml)</p>
-        <p>Crema grande: $220 (750 ml)</p>
-        <a href="#">Ver más</a>
-    </div>
-    </div>
-    
     </div>
 
-    <div class="title-cards2">
-        <h2>Top ventas</h2>
+    <div class="container-card2">
+       <!--Producto 4-->
+       <div class="card">
+        <figure>
+            <img src="img/mezcal coco.jpeg">
+        </figure>
+        <div class="contenido-card">
+            <h3>Crema de coco Guarú</h3>
+            <p>Crema chica: $120 (375 ml)</p>
+            <a href="#">Ver más</a>
+        </div>
     </div>
+     <!--Producto 5-->
+     <div class="card">
+        <figure>
+            <img src="img/mezcal cafe.jpeg">
+        </figure>
+        <div class="contenido-card">
+            <h3>Crema de café Guarú</h3>
+            <p>Crema grande: $220 (750 ml)</p>
+            <a href="#">Ver más</a>
+        </div>
+     </div>
+    </div>
+    
+
+    <div class="title-cards">
+        <h2>Otros clientes también vieron</h2>
+    </div>
+
 
  <div class="container-card">
- 
+    <!--Producto 4-->
     <div class="card">
         <figure>
             <img src="img/producto mezcal2.jpeg">
         </figure>
         <div class="contenido-card">
             <h3>Mezcal Añejo Guarú</h3>
-            <p>Mezcal Añejo: $170 (375 ml)</p>
-            <p>Mezcal Añejo: $450 (750 ml)</p>
-            <a href="#">Ver más</a>
+            <p>Mezcal Añejo Chico: $170 (375 ml)</p>
+            <a href="prodmezcalañejo.html">Ver más</a>
         </div>
-        </div>
+    </div>
 
+
+        <!--Producto 5-->
      <div class="card">
         <figure>
             <img src="img/mezcal9.jpeg">
         </figure>
         <div class="contenido-card">
             <h3>Mezcal Artesanal Triple Destilacion Guarú</h3>
-            <p>Mezcal Añejo: $170 (375 ml)</p>
-            <p>Mezcal Añejo: $450 (750 ml)</p>
-            <a href="#">Ver más</a>
-        </div>
-        </div>
-
-     <div class="card">
-        <figure>
-            <img src="img/producto mezcal.jpeg">
-        </figure>
-        <div class="contenido-card">
-            <h3>Mezcal Joven Guarú</h3>
-            <p>Mezcal Joven: $90 (375 ml)</p>
-            <p>Mezcal Joven: $200 (750 ml)</p>
-            <a href="#">Ver más</a>
-        </div>
+            <p>Mezcal Añejo Chico: $170 (375 ml)</p>
+            <a href="prodmezcalartesanal.html">Ver más</a>
         </div>
     </div>
 
-    <footer>
-        <div class="face"> 
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="70" height="70" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2D2427" fill="none" stroke-linecap="round" stroke-linejoin="round" >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-          </svg>
+         <!--Producto 6-->
+     <div class="card">
+            <figure>
+                <img src="img/producto mezcal.jpeg">
+            </figure>
+            <div class="contenido-card">
+                <h3>Mezcal Joven Guarú</h3>
+                <p>Mezcal Joven Chico: $90 (375 ml)</p>
+                <a href="prodmezcaljoven.html">Ver más</a>
+            </div>
+    </div>
+</div>
+
+<div class="container-card">
+    <div class="card">
+        <figure>
+            <img src="img/producto mezcal2.jpeg">
+        </figure>
+        <div class="contenido-card">
+            <h3>Mezcal Añejo Guarú</h3>
+            <p>Mezcal Añejo Grande: $450 (750ml)</p>
+            <a href="prodmezcalañejog.html">Ver más</a>
         </div>
-    </footer>
-   
-    <script src="js/script.js"></script>
+    </div>
+
+
+        <!--Producto 8-->
+     <div class="card">
+        <figure>
+            <img src="img/mezcal9.jpeg">
+        </figure>
+        <div class="contenido-card">
+            <h3>Mezcal Artesanal Triple Destilacion Guarú</h3>
+            <p>Mezcal Añejo Grande: $450 (750ml)</p>
+            <a href="prodmezcalartesanalg.html">Ver más</a>
+        </div>
+    </div>
+
+
+         <!--Producto 9-->
+     <div class="card">
+            <figure>
+                <img src="img/producto mezcal.jpeg">
+            </figure>
+            <div class="contenido-card">
+                <h3>Mezcal Joven Guarú</h3>
+                <p>Mezcal Joven Grande: $200 (750ml)</p>
+                <a href="prodmezcaljoveng.html">Ver más</a>
+            </div>
+    </div>
+</div>
+
+<footer>
+    <div class="face"> 
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="70" height="70" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2D2427" fill="none" stroke-linecap="round" stroke-linejoin="round" >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+      </svg>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/c204debd40.js" crossorigin="anonymous"></script>
+
 
     
 </body>
