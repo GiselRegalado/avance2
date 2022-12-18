@@ -1,13 +1,25 @@
+const mainMenu = document.querySelector('.mainMenu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+const menu_items = document.querySelectorAll('nav .mainMenu li a');
 
-document.querySelector(".bars_menu").addEventListener("click", animateBars);
 
-var line1_bars = document.querySelector(".line1_bars-menu");
-var line2_bars = document.querySelector(".line2_bars-menu");
-var line3_bars = document.querySelector(".line3_bars-menu");
 
-function animateBars()
-{
-    line1_bars.classList.toggle("activeline1_bars-menu");
-    line2_bars.classList.toggle("activeline2_bars-menu");
-    line3_bars.classList.toggle("activeline3_bars-menu");
+
+openMenu.addEventListener('click',show);
+closeMenu.addEventListener('click',close);
+
+// close menu when you click on a menu item 
+menu_items.forEach(item => {
+    item.addEventListener('click',function(){
+        close();
+    })
+})
+
+function show(){
+    mainMenu.style.display = 'flex';
+    mainMenu.style.top = '0';
+}
+function close(){
+    mainMenu.style.top = '-100%';
 }
